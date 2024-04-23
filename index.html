@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">JCM</a></li>
+            <li class="hideOnMobile"><a href="#">Inicio</a></li>
+            <li class="hideOnMobile"><a href="#">Proyectos</a></li>
+            <li class="hideOnMobile"><a href="#">Sobre Mi</a></li>
+            <li class="hideOnMobile"><a href="#">Contacto</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+        </ul>
+        <!--Sidebar-->
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-x"></i></a></li>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Sobre Mi</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div>
+            <h1>Juan Cruz</h1>
+            <h3>FrontEnd Developer</h3>
+            <p>Apasionado por la progamación y el desarrollo web</p>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div>
+                    <img src="#" alt="">
+                </div>
+                <h3 class="card-title">asdasd</h3>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam reprehenderit asperiores magni dicta suscipit expedita facere modi recusandae, vel temporibus esse dolore.</p>
+                <button class="card-btn">Ver Proyecto</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="#" alt="">
+                </div>
+                <h3 class="card-title">asdasdasd</h3>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam reprehenderit asperiores magni dicta suscipit expedita facere modi recusandae, vel temporibus esse dolore.</p>
+                <button class="card-btn">Ver Proyecto</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="#" alt="">
+                </div>
+                <h3 class="card-title">asdasdasd</h3>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam reprehenderit asperiores magni dicta suscipit expedita facere modi recusandae, vel temporibus esse dolore.</p>
+                <button class="card-btn">Ver proyecto</button>
+            </div>
+        </div>
+    </section>
+    <article>
+        <h2 class="habilidades-text">Habilidades</h2>
+        <div class="habilidades">
+            <div class="habilidades-items item-hmtl"><i class="fa-brands fa-html5"></i></div>
+            <div class="habilidades-items item-css"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="habilidades-items item-js"><i class="fa-brands fa-js"></i></div>
+        </div>
+    </article>
+
+    <script src="https://kit.fontawesome.com/5ad47bb536.js" crossorigin="anonymous"></script>    
+    <script src="/app.js"></script>    
+</body>
+</html>
